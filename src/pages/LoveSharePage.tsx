@@ -1,7 +1,7 @@
-import React from 'react';
+
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { FaUsers, FaPlus, FaCalendarAlt, FaImage } from 'react-icons/fa';
+import { FaUsers, FaCalendarAlt, FaImage } from 'react-icons/fa';
 
 const Page = styled.div`
   background: #0e0e10;
@@ -26,7 +26,7 @@ const Title = styled.h2`
 `;
 
 const Card = styled.div`
-  border: 2px solid ${props => props.color || '#a855f7'};
+  border: 2px solid #a855f7;
   border-radius: 8px;
   padding: 10px;
   text-align: center;
@@ -153,7 +153,7 @@ const LoveSharePage = () => {
         </div>
 
         <label>Mensagem Fofa</label>
-        <TextArea rows="3" placeholder="Mostre todo seu amor"></TextArea>
+        <TextArea placeholder="Mostre todo seu amor"></TextArea>
       </Section>
 
       {/* Preview Section */}

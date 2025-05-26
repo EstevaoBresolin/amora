@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styled from 'styled-components';
 import { FaCalendarAlt } from 'react-icons/fa';
 import img1 from './img1.png';
