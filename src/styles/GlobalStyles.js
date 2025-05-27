@@ -24,7 +24,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
     background-color: var(--background);
     color: var(--dark);
-    line-height: 1.6;
   }
 
   a {

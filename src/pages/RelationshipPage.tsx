@@ -84,9 +84,18 @@ const RelationshipPage = () => {
 
       <Player>
         {/* Aqui você pode colocar um player real ou manter como ilustração */}
-        <div>🎵 Current Song</div>
-        <input type="range" min="0" max="100" value="50" readOnly />
-      </Player>
+        {/* <div>🎵 Current Song</div>
+        <input type="range" min="0" max="100" value="50" readOnly /> */}
+          <iframe 
+  width="240" 
+  height="150" 
+  src="https://www.youtube.com/embed/WC-iBaKL59Q?autoplay=1&si=pb0PIzJCNwidt2--" 
+  title="YouTube video player" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  // allowfullscreen
+></iframe>
+
+        </Player>
 
      <CoupleImage src={img1} alt="Casal" />
 
