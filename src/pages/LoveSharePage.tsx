@@ -1,7 +1,7 @@
 
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { FaUsers, FaCalendarAlt, FaImage } from 'react-icons/fa';
+import { FaCalendarAlt, FaImage } from 'react-icons/fa';
 import img1 from '../assets/users.svg';
 
 import '../styles/LoveShare.css';
